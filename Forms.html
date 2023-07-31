@@ -6,18 +6,23 @@
     <title>Formularios</title>
 </head>
 <body>
-    <h1>Formulario de cadastro</h1>
-    <form>
-        <label>Nome</label>
-        <input type="text"/>
-        <br />
-        <label>Email</label>
-        <input type="email" id="email" />  
-        <br />
-        <label>Senha</label>
-        <input type="text"/>
-    </br/>
-    <input type="submit"/>
-    </form>
+<h1>Formulario de Cadastro</h1>
+<form>
+    <label for="nome">Seu nome</label>
+    <input type="text" placeholder="Seu nome" />
+    <br />
+    <label for="e-mail">Seu e-mail</label>
+    <input id="e-mail" type="email" />
+    <br />
+    <label for="Senha">Sua senha</label>
+    <input type="password" name="Senha" placeholder="Digite sua senha">
+    <br />
+    <button type="submit">
+        Enviar
+    </button>
+    <button type="reset">
+        Limpar
+    </button>
+</form>
 </body>
 </html>
