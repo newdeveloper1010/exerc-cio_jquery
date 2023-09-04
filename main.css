@@ -1,137 +1,38 @@
-.{
+ul {
+    list-style-type: none;
     margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+    padding: 0;
+  }
 
-header,
-section h2,section h3,
-form button{
-    font-family: 'Bungee', cursive;
-}
+  body{
+    background-color: rgb(222, 222, 216);
+  }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
+  header{
+text-align: center;
+vertical-align:middle;
+font-size: 18px;
+padding: 10px;
+  }
 
-header{
-    padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
-}
-
-header h1,
-section h2{
-    font-weight: normal;
-}
-
-header nav li{
-    display: inline;
-    margin-left: 16px;
-    font-size: 18px;
-}
-
-header nav li a{
-    color: #ecf0f1;
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1280px;
-    width: 100%;
+.container{
     margin: 0 auto;
 }
 
-header .container,
-section.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+  li {
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+    text-decoration: line-through;
+  }
 
-.brands-list img{
-    height: 33px;
+#nova-tarefa{
+  background-color:rgba(248, 239, 239, 0.893);
+  padding: 10px;
+  width: 258px;
 }
-
-.brands-list li{
-    display: inline;
-    margin-right: 8px;
-}
-
-section{
-    padding: 35px 0;
-}
-
-section h2{
-    margin-bottom: 14px;
-    color: #182c61;
-}
-
-section{
-    color: #182c61;
-}
-
-section p{
-    margin-bottom: 12px;
-}
-
-div {
-    text-align:initial;
-}
-
-body{
-    background-color: rgb(198, 238, 238);
-    color: rgb(19, 19, 19);
-}
-
-section.container{
-    align-items: flex-start;
-}
-
-.store-front{
-    margin-right: 25px;
-}
-
-.social-links li img{
-    height: 24px;
-}
-
-.social-links li{
-    display: inline;
-    margin-right: 9px;
-}
-
-.social-links li a{
-    text-decoration: none;
-}
-
-#contact.container{
-    display: block;
-}
-
-.contact-methods{
-    display: flex;
-    justify-content: space-between;
-}
-
-form input,form textarea,form button{
-    display: block;
-    width: 320px;
-    margin-bottom: 8px;
-    padding: 8px;
-}
-
-form textarea{
-    resize: none;
-}
-
-form button{
-    background-color: #182c61;
-    color: #ecf0f1;
-}
-
-footer{
-    background-color:#182c61 ;
-    color: #ecf0f1;
-    padding: 16px 0;
+#submit{
+background-color: green;
+color:white;
+width: 140px;
+padding: 10px;
 }
