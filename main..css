@@ -1,0 +1,45 @@
+
+header {
+    background-color: rgb(149, 201, 247);
+    margin: 16px;
+    text-align: center;
+    color: rgb(16, 17, 17);
+    font-size: 18px;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(222, 222, 216);
+  }
+
+  #cadastro{
+width: 140px;
+padding: 12px;
+font-size: 20px;
+width: 100%;
+  }
+
+  .form{
+    text-align: center;
+  }
+
+  input{
+    background-color: #f8f8f8;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(18, 6, 6);
+  border-radius: 4px;
+  }
+
+  button{
+    background-color: green;
+    width: 10%;
+    padding: 18px;
+    margin-left: 70px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+  }
+
+
